@@ -7,7 +7,10 @@ $.urlParam = function(name){
 $(function(){
   var subject = $.urlParam("subject");
   var timeout = $.urlParam("timeout");
-  $('.subject').text(decodeURIComponent(subject));
+
+  if(subject) {
+    $('.subject').text(decodeURIComponent(subject));
+  }
 
   setTimeout(function(){
     $('#answer').show();
