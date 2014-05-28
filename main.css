@@ -22,3 +22,17 @@ h2 {
   margin: 0;
   font-size: 3em;
 }
+
+#form {
+  margin-top: 25px;
+}
+
+#form input {
+  padding: 5px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#show_container {
+  margin-top: 25px;
+}
