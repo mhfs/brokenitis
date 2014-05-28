@@ -33,7 +33,8 @@ $(function(){
     $(this).select();
   });
 
-  $("#show_link").on('click', function(){
+  $("#show_link").on('click', function(event){
+    event.preventDefault();
     $(this).hide();
     $('#form').show();
     $('#subject_input').val(decodeURIComponent(subject)).focus().select();
