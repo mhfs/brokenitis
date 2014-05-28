@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 0.8em;
+}
+
+#answer h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 21em;
+  line-height: 0.8em;
+}
+
+#answer h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 3em;
+}
