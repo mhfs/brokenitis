@@ -4,4 +4,4 @@ Silly website.
 
 ## Deployment
 
-rsync -rtv . deployer@mhfs.com.br:~/apps/brokenitis.com/www/
+rsync -rtv --exclude='.git/' . deployer@mhfs.com.br:~/apps/brokenitis.com/www/
